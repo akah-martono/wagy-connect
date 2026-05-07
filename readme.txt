@@ -4,7 +4,7 @@ Tags: security, 2fa, two factor authentication, notifications, whatsapp
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 8.0
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -104,10 +104,13 @@ The Owner Info stores your email and WhatsApp number on the WAGY server. The WAG
 
 == Changelog ==
 
+= 0.0.2 =
+* Add Indonesian language.
+
 = 0.0.1 =
 * Initial release.
 
 == Upgrade Notice ==
 
-= 0.0.1 =
+= 0.0.2 =
 Initial release. No upgrade steps required.

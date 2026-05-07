@@ -3,9 +3,9 @@
 /**
  * Plugin Name:       Wagy Connect
  * Description:       A comprehensive WordPress security and messaging suite: WhatsApp 2FA, security notifications, custom login URL, message logs, bulk broadcast, and Fluent Forms integration — powered by the self-hosted WAGY API.
- * Version:           0.0.1
- * Author:            Akah
- * Author URI:        https://www.subarkah.com/
+ * Version:           0.0.2
+ * Author:            Wagy
+ * Author URI:        https://www.wagy.web.id/
  * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wagy-connect

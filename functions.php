@@ -9,6 +9,7 @@ use Wagy\Security\CustomLoginUrl;
 use Wagy\Security\TwoFactorAuth;
 use Wagy\Security\SecurityNotifications;
 use Wagy\Security\SystemUpdateNotifier;
+use Wagy\Security\GitHubUpdater;
 use Wagy\Wagy;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Admin Pages & Access Control */
 \Wagy\Admin\AccessControl::init();
+GitHubUpdater::init();
 
 new StatusPage();
 if(Wagy::is_configured()) {

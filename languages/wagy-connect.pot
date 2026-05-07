@@ -1,0 +1,642 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagy Connect 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-07 05:31+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Antigravity\n"
+"Language-Team: \n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Antigravity\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%1$s \/ %2$s messages remaining (%3$s%%)"
+msgstr ""
+
+msgid "%d messages cancelled successfully."
+msgstr ""
+
+msgid "%d messages queued for resending."
+msgstr ""
+
+msgid "(Overrides Role Base. Only specific users can view or manage)"
+msgstr ""
+
+msgid "1 Hour"
+msgstr ""
+
+msgid "24 Hours"
+msgstr ""
+
+msgid "2FA Message Template"
+msgstr ""
+
+msgid "2FA Required Roles"
+msgstr ""
+
+msgid "3 Days"
+msgstr ""
+
+msgid "6 Hours"
+msgstr ""
+
+msgid "628123456789; Name; Extra Data\\n628987654321; Another Name"
+msgstr ""
+
+msgid "7 Days"
+msgstr ""
+
+msgid "API Settings"
+msgstr ""
+
+msgid "Access Control"
+msgstr ""
+
+msgid "Access denied."
+msgstr ""
+
+msgid "Active Plans & Vouchers"
+msgstr ""
+
+msgid "Admin Block Message"
+msgstr ""
+
+msgid "Admin Email (Fallback)"
+msgstr ""
+
+msgid "Admin WhatsApp Number"
+msgstr ""
+
+msgid "Admin WhatsApp number to receive security alerts. Use country code without +."
+msgstr ""
+
+msgid "All Statuses"
+msgstr ""
+
+msgid "All numbers from this source are already in the list."
+msgstr ""
+
+msgid "Allowed Managers (Usernames, comma separated):"
+msgstr ""
+
+msgid "Allowed Roles:"
+msgstr ""
+
+msgid "Allowed Specific Users (Usernames, comma separated):"
+msgstr ""
+
+msgid "An OTP has been sent to your WhatsApp or email address."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "At least one of Email or WhatsApp is required."
+msgstr ""
+
+msgid "At least one of email or whatsapp is required."
+msgstr ""
+
+msgid "Available Updates"
+msgstr ""
+
+msgid "Available tokens: {site_name}, {site_url}, {total_updates}, {update_list}"
+msgstr ""
+
+msgid "Available tokens: {site_name}, {site_url}, {update_list}"
+msgstr ""
+
+msgid "Available tokens: {username}, {email}, {time}"
+msgstr ""
+
+msgid "Available tokens: {username}, {ip}, {attempts}, {time}"
+msgstr ""
+
+msgid "Available tokens: {username}, {role}, {ip}, {time}"
+msgstr ""
+
+msgid "Available tokens: {username}, {role}, {time}"
+msgstr ""
+
+msgid "Back to Login"
+msgstr ""
+
+msgid "Base URL"
+msgstr ""
+
+msgid "Base URL is not configured."
+msgstr ""
+
+msgid "Basic Security"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Broadcast complete."
+msgstr ""
+
+msgid "Bulk Actions"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot connect to Wagy API server. Please check your connection or credentials."
+msgstr ""
+
+msgid "Check a role to require 2FA, then choose how the OTP is delivered for that role."
+msgstr ""
+
+msgid "Check and notify about available plugin, theme, and core updates."
+msgstr ""
+
+msgid "Click to expand"
+msgstr ""
+
+msgid "Client Token"
+msgstr ""
+
+msgid "Completed Updates"
+msgstr ""
+
+msgid "Compose Message"
+msgstr ""
+
+msgid "Configure who can access each Wagy feature."
+msgstr ""
+
+msgid "Created \/ Sent At"
+msgstr ""
+
+msgid "Custom Login Slug"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Device ID"
+msgstr ""
+
+msgid "Device ID or Token is not configured."
+msgstr ""
+
+msgid "Device Owner Information"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Email only"
+msgstr ""
+
+msgid "Enable 2FA"
+msgstr ""
+
+msgid "Enable Strict Mode"
+msgstr ""
+
+msgid "Enable WAGY Two-Factor Authentication"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Enter your Wagy PRO voucher code to add quota to this device."
+msgstr ""
+
+msgid "Enter your number with country code (e.g. 628123456789). Leave blank to use email as fallback."
+msgstr ""
+
+msgid "Example: \"Hi [1], your order on [2] is ready.\""
+msgstr ""
+
+msgid "Example: 628123456789; Budi Santoso; 25 April 2026"
+msgstr ""
+
+msgid "Expires In"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Failed to fetch quota data: %s"
+msgstr ""
+
+msgid "Failed to update owner info."
+msgstr ""
+
+msgid "Failure threshold:"
+msgstr ""
+
+msgid "Fallback email address used when WAGY is offline or not connected."
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Free Balance:"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "Go to Settings \u2192"
+msgstr ""
+
+msgid "Hourly"
+msgstr ""
+
+msgid "How long to wait before retrying a failed message."
+msgstr ""
+
+msgid "Import Numbers"
+msgstr ""
+
+msgid "Import Recipients"
+msgstr ""
+
+msgid "Import failed. Please try again."
+msgstr ""
+
+msgid "Incorrect OTP code. You have %d attempt(s) remaining."
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Invalid source."
+msgstr ""
+
+msgid "Leave blank to use the default login page. Example: %s"
+msgstr ""
+
+msgid "Media"
+msgstr ""
+
+msgid "Media URL"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Message body is required."
+msgstr ""
+
+msgid "Message cannot be empty."
+msgstr ""
+
+msgid "Message shown to unauthenticated visitors who try to access \/wp-admin directly."
+msgstr ""
+
+msgid "Messages Log"
+msgstr ""
+
+msgid "Messages not delivered within this time will expire."
+msgstr ""
+
+msgid "Monitored Roles"
+msgstr ""
+
+msgid "Network error during batch send. Some messages may not have been queued."
+msgstr ""
+
+msgid "No active quota. Messages will stay PENDING until quota is available."
+msgstr ""
+
+msgid "No messages found."
+msgstr ""
+
+msgid "No valid numbers found in selected source."
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Notify on Brute-Force Attempts"
+msgstr ""
+
+msgid "Notify on New Login"
+msgstr ""
+
+msgid "Notify on New User Registration"
+msgstr ""
+
+msgid "Notify on Password Change"
+msgstr ""
+
+msgid "OTP Code (6 digits)"
+msgstr ""
+
+msgid "OTP Delivery Method"
+msgstr ""
+
+msgid "OTP Expired"
+msgstr ""
+
+msgid "One entry per line. Format: phone; [1] field; [2] field; ..."
+msgstr ""
+
+msgid "Optional. Publicly accessible image, video, or document URL."
+msgstr ""
+
+msgid "Owner Email"
+msgstr ""
+
+msgid "Owner Info"
+msgstr ""
+
+msgid "Owner WhatsApp"
+msgstr ""
+
+msgid "Owner info updated successfully."
+msgstr ""
+
+msgid "PRO Balance:"
+msgstr ""
+
+msgid "Page Access Control"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone list and message are required."
+msgstr ""
+
+msgid "Phone number is required."
+msgstr ""
+
+msgid "Please enter at least one phone number."
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+msgid "Quota Dashboard"
+msgstr ""
+
+msgid "Quota exhausted. Please top up or activate a voucher."
+msgstr ""
+
+msgid "Quota is available and ready for use."
+msgstr ""
+
+msgid "Recipient"
+msgstr ""
+
+msgid "Recipient Number"
+msgstr ""
+
+msgid "Recipients"
+msgstr ""
+
+msgid "Recipients (one per line)"
+msgstr ""
+
+msgid "Reconnect \/ View QR"
+msgstr ""
+
+msgid "Redeem"
+msgstr ""
+
+msgid "Redeem PRO Voucher"
+msgstr ""
+
+msgid "Refresh QR Code"
+msgstr ""
+
+msgid "Request failed. Please try again."
+msgstr ""
+
+msgid "Resend"
+msgstr ""
+
+msgid "Retry Interval"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Save Owner Info"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "Select message"
+msgstr ""
+
+msgid "Select which user roles to monitor for login and password change events."
+msgstr ""
+
+msgid "Send Broadcast"
+msgstr ""
+
+msgid "Send Results"
+msgstr ""
+
+msgid "Send a WhatsApp message to multiple recipients. Each number is queued individually on the Wagy server."
+msgstr ""
+
+msgid "Send a message when a monitored user changes their password."
+msgstr ""
+
+msgid "Send a message when a monitored user logs in."
+msgstr ""
+
+msgid "Send a message when a new user registers."
+msgstr ""
+
+msgid "Send a message when an update successfully completes (manual or auto-update)."
+msgstr ""
+
+msgid "Send an alert when the failed login threshold is exceeded."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Source handler not found or invalid."
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status & Quota"
+msgstr ""
+
+msgid "System Update Notifications"
+msgstr ""
+
+msgid "The API bearer token for authenticating with the WAGY server. Stored encrypted."
+msgstr ""
+
+msgid "The full URL of your WAGY API server (e.g. https:\/\/wagy.example.com)."
+msgstr ""
+
+msgid "This information is used by the Wagy server to send inactivity and logout notifications to the device owner."
+msgstr ""
+
+msgid "This page is locked by Strict Mode. You do not have permission to change these settings."
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Too Many Attempts"
+msgstr ""
+
+msgid "Twice Daily"
+msgstr ""
+
+msgid "Two-Factor Authentication"
+msgstr ""
+
+msgid "Two-Factor Authentication (2FA)"
+msgstr ""
+
+msgid "Type your message here..."
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Use %1$s, %2$s, etc. to insert dynamic data from the recipient list (field 1, field 2, ...)."
+msgstr ""
+
+msgid "Use %s to insert the 6-digit OTP code."
+msgstr ""
+
+msgid "Used for WhatsApp notifications. Country code without +."
+msgstr ""
+
+msgid "Used for email notifications about inactivity or logout events."
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "WAGY Security Alert - %s"
+msgstr ""
+
+msgid "WAGY Two-Factor Authentication"
+msgstr ""
+
+msgid "Wagy"
+msgstr ""
+
+msgid "Wagy API is not configured."
+msgstr ""
+
+msgid "Wagy Broadcast"
+msgstr ""
+
+msgid "Wagy Settings"
+msgstr ""
+
+msgid "Wagy Status"
+msgstr ""
+
+msgid "Wagy Status & Quota"
+msgstr ""
+
+msgid "Wagy WhatsApp Device Disconnected."
+msgstr ""
+
+msgid "Wagy has not been configured yet. Please go to Settings to set up your API credentials."
+msgstr ""
+
+msgid "Warning: Your own Username will be automatically added to prevent self-lockout."
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "WhatsApp (fallback to email)"
+msgstr ""
+
+msgid "WhatsApp Number"
+msgstr ""
+
+msgid "WhatsApp Security Notifications"
+msgstr ""
+
+msgid "WhatsApp is connected (%s)."
+msgstr ""
+
+msgid "WhatsApp is disconnected. Please scan the QR code below to connect."
+msgstr ""
+
+msgid "WooCommerce Customers (Billing Phone)"
+msgstr ""
+
+msgid "WordPress Users: %s"
+msgstr ""
+
+msgid "You have entered an incorrect code 3 times. Please log in again to request a new OTP."
+msgstr ""
+
+msgid "Your Login OTP Code"
+msgstr ""
+
+msgid "Your OTP code has expired. Please log in again to request a new one."
+msgstr ""
+
+msgid "Your WhatsApp session has ended."
+msgstr ""
+
+msgid "Your registered WhatsApp device ID on the WAGY server."
+msgstr ""
+
+msgid "admin@example.com"
+msgstr ""
+
+msgid "attempts"
+msgstr ""
+
+msgid "e.g. 628123456789"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "https:\/\/example.com\/image.jpg (optional)"
+msgstr ""
+
+msgid "number(s) imported from:"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "owner@example.com"
+msgstr ""
+
+msgid "queued"
+msgstr ""
+
+msgid "recipient(s)"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+

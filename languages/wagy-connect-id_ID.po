@@ -1,0 +1,638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagy Connect 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-07 05:31+0000\n"
+"PO-Revision-Date: 2026-05-07 12:45+0700\n"
+"Last-Translator: Antigravity\n"
+"Language-Team: \n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Antigravity\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%1$s / %2$s messages remaining (%3$s%%)"
+msgstr "Sisa %1$s / %2$s pesan (%3$s%%)"
+
+msgid "%d messages cancelled successfully."
+msgstr "%d pesan berhasil dibatalkan."
+
+msgid "%d messages queued for resending."
+msgstr "%d pesan masuk antrean untuk dikirim ulang."
+
+msgid "(Overrides Role Base. Only specific users can view or manage)"
+msgstr "(Menggantikan pengaturan Role. Hanya user tertentu yang bisa lihat atau atur)"
+
+msgid "1 Hour"
+msgstr "1 Jam"
+
+msgid "24 Hours"
+msgstr "24 Jam"
+
+msgid "2FA Message Template"
+msgstr "Template Pesan 2FA"
+
+msgid "2FA Required Roles"
+msgstr "Role yang Wajib 2FA"
+
+msgid "3 Days"
+msgstr "3 Hari"
+
+msgid "6 Hours"
+msgstr "6 Jam"
+
+msgid "7 Days"
+msgstr "7 Hari"
+
+msgid "API Settings"
+msgstr "Pengaturan API"
+
+msgid "Access Control"
+msgstr "Kontrol Akses"
+
+msgid "Access denied."
+msgstr "Akses ditolak."
+
+msgid "Active Plans & Vouchers"
+msgstr "Plan & Voucher Aktif"
+
+msgid "Admin Block Message"
+msgstr "Pesan Blokir Admin"
+
+msgid "Admin Email (Fallback)"
+msgstr "Email Admin (Cadangan)"
+
+msgid "Admin WhatsApp Number"
+msgstr "Nomor WhatsApp Admin"
+
+msgid "Admin WhatsApp number to receive security alerts. Use country code without +."
+msgstr "Nomor WhatsApp admin untuk terima notifikasi keamanan. Pakai kode negara tanpa + ya."
+
+msgid "All Statuses"
+msgstr "Semua Status"
+
+msgid "All numbers from this source are already in the list."
+msgstr "Semua nomor dari sumber ini sudah ada di daftar."
+
+msgid "Allowed Managers (Usernames, comma separated):"
+msgstr "Manager yang Diizinkan (Username, pisahkan pakai koma):"
+
+msgid "Allowed Roles:"
+msgstr "Role yang Diizinkan:"
+
+msgid "Allowed Specific Users (Usernames, comma separated):"
+msgstr "User Spesifik yang Diizinkan (Username, pisahkan pakai koma):"
+
+msgid "An OTP has been sent to your WhatsApp or email address."
+msgstr "Kode OTP sudah dikirim ke WhatsApp atau email kamu ya."
+
+msgid "Apply"
+msgstr "Terapkan"
+
+msgid "At least one of Email or WhatsApp is required."
+msgstr "Minimal isi Email atau WhatsApp ya."
+
+msgid "At least one of email or whatsapp is required."
+msgstr "Minimal isi email atau whatsapp ya."
+
+msgid "Available Updates"
+msgstr "Update Tersedia"
+
+msgid "Available tokens: {site_name}, {site_url}, {total_updates}, {update_list}"
+msgstr "Token tersedia: {site_name}, {site_url}, {total_updates}, {update_list}"
+
+msgid "Available tokens: {site_name}, {site_url}, {update_list}"
+msgstr "Token tersedia: {site_name}, {site_url}, {update_list}"
+
+msgid "Available tokens: {username}, {email}, {time}"
+msgstr "Token tersedia: {username}, {email}, {time}"
+
+msgid "Available tokens: {username}, {ip}, {attempts}, {time}"
+msgstr "Token tersedia: {username}, {ip}, {attempts}, {time}"
+
+msgid "Available tokens: {username}, {role}, {ip}, {time}"
+msgstr "Token tersedia: {username}, {role}, {ip}, {time}"
+
+msgid "Available tokens: {username}, {role}, {time}"
+msgstr "Token tersedia: {username}, {role}, {time}"
+
+msgid "Back to Login"
+msgstr "Kembali ke Login"
+
+msgid "Base URL"
+msgstr "Base URL"
+
+msgid "Base URL is not configured."
+msgstr "Base URL belum dikonfigurasi."
+
+msgid "Basic Security"
+msgstr "Keamanan Dasar"
+
+msgid "Broadcast"
+msgstr "Broadcast"
+
+msgid "Broadcast complete."
+msgstr "Broadcast selesai nih."
+
+msgid "Bulk Actions"
+msgstr "Tindakan Massal"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Cannot connect to Wagy API server. Please check your connection or credentials."
+msgstr "Gagal nyambung ke server Wagy. Coba cek lagi koneksi atau kredensial kamu ya."
+
+msgid "Check a role to require 2FA, then choose how the OTP is delivered for that role."
+msgstr "Centang role yang wajib 2FA, terus pilih cara kirim OTP-nya untuk role itu."
+
+msgid "Check and notify about available plugin, theme, and core updates."
+msgstr "Cek dan info kalau ada update plugin, theme, atau core."
+
+msgid "Click to expand"
+msgstr "Klik untuk detail"
+
+msgid "Client Token"
+msgstr "Client Token"
+
+msgid "Completed Updates"
+msgstr "Update Selesai"
+
+msgid "Compose Message"
+msgstr "Buat Pesan"
+
+msgid "Configure who can access each Wagy feature."
+msgstr "Atur siapa saja yang bisa akses fitur-fitur Wagy."
+
+msgid "Created / Sent At"
+msgstr "Dibuat / Dikirim Pada"
+
+msgid "Custom Login Slug"
+msgstr "Slug Login Custom"
+
+msgid "Daily"
+msgstr "Harian"
+
+msgid "Device ID"
+msgstr "Device ID"
+
+msgid "Device ID or Token is not configured."
+msgstr "Device ID atau Token belum dikonfigurasi."
+
+msgid "Device Owner Information"
+msgstr "Informasi Pemilik Device"
+
+msgid "Disabled"
+msgstr "Nonaktif"
+
+msgid "Email only"
+msgstr "Hanya Email"
+
+msgid "Enable 2FA"
+msgstr "Aktifkan 2FA"
+
+msgid "Enable Strict Mode"
+msgstr "Aktifkan Strict Mode"
+
+msgid "Enable WAGY Two-Factor Authentication"
+msgstr "Aktifkan WAGY Two-Factor Authentication"
+
+msgid "End Date"
+msgstr "Tanggal Akhir"
+
+msgid "Enter your Wagy PRO voucher code to add quota to this device."
+msgstr "Masukkan kode voucher Wagy PRO kamu untuk nambah Quota di device ini."
+
+msgid "Enter your number with country code (e.g. 628123456789). Leave blank to use email as fallback."
+msgstr "Masukkan nomor kamu pakai kode negara (misal: 628123456789). Kosongkan kalau mau pakai email untuk cadangan."
+
+msgid "Example: \"Hi [1], your order on [2] is ready.\""
+msgstr "Contoh: \"Halo [1], pesanan kamu di [2] sudah siap.\""
+
+msgid "Example: 628123456789; Budi Santoso; 25 April 2026"
+msgstr "Contoh: 628123456789; Budi Santoso; 25 April 2026"
+
+msgid "Expires In"
+msgstr "Kedaluwarsa Dalam"
+
+msgid "Failed"
+msgstr "Gagal"
+
+msgid "Failed to fetch quota data: %s"
+msgstr "Gagal ambil data Quota: %s"
+
+msgid "Failed to update owner info."
+msgstr "Gagal update info pemilik."
+
+msgid "Failure threshold:"
+msgstr "Batas kegagalan:"
+
+msgid "Fallback email address used when WAGY is offline or not connected."
+msgstr "Alamat email cadangan kalau WAGY lagi offline atau tidak nyambung."
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Forbidden"
+msgstr "Terlarang"
+
+msgid "Free Balance:"
+msgstr "Saldo Gratis:"
+
+msgid "From:"
+msgstr "Dari:"
+
+msgid "Go to Settings →"
+msgstr "Ke menu Settings →"
+
+msgid "Hourly"
+msgstr "Tiap Jam"
+
+msgid "How long to wait before retrying a failed message."
+msgstr "Berapa lama nunggu sebelum kirim ulang pesan yang gagal."
+
+msgid "Import Numbers"
+msgstr "Import Nomor"
+
+msgid "Import Recipients"
+msgstr "Import Penerima"
+
+msgid "Import failed. Please try again."
+msgstr "Gagal import nih. Coba lagi ya."
+
+msgid "Incorrect OTP code. You have %d attempt(s) remaining."
+msgstr "Kode OTP salah. Sisa kesempatan kamu tinggal %d kali lagi."
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Invalid source."
+msgstr "Sumber tidak valid."
+
+msgid "Leave blank to use the default login page. Example: %s"
+msgstr "Kosongkan saja kalau mau pakai halaman login bawaan. Contoh: %s"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Media URL"
+msgstr "URL Media"
+
+msgid "Message"
+msgstr "Pesan"
+
+msgid "Message body is required."
+msgstr "Isi pesan wajib diisi ya."
+
+msgid "Message cannot be empty."
+msgstr "Pesan tidak boleh kosong ya."
+
+msgid "Message shown to unauthenticated visitors who try to access /wp-admin directly."
+msgstr "Pesan untuk pengunjung yang tidak login tapi coba akses /wp-admin langsung."
+
+msgid "Messages Log"
+msgstr "Log Pesan"
+
+msgid "Messages not delivered within this time will expire."
+msgstr "Pesan yang tidak terkirim dalam waktu ini bakal kedaluwarsa."
+
+msgid "Monitored Roles"
+msgstr "Role yang Dipantau"
+
+msgid "Network error during batch send. Some messages may not have been queued."
+msgstr "Ada error jaringan saat kirim massal. Beberapa pesan mungkin tidak masuk antrean."
+
+msgid "No active quota. Messages will stay PENDING until quota is available."
+msgstr "Belum ada Quota aktif nih. Pesan bakal tetap PENDING sampai Quota tersedia ya."
+
+msgid "No messages found."
+msgstr "Tidak ada pesan."
+
+msgid "No valid numbers found in selected source."
+msgstr "Tidak ketemu nomor valid di sumber yang dipilih."
+
+msgid "Notes"
+msgstr "Catatan"
+
+msgid "Notify on Brute-Force Attempts"
+msgstr "Info kalau ada percobaan Brute-Force"
+
+msgid "Notify on New Login"
+msgstr "Info kalau ada Login baru"
+
+msgid "Notify on New User Registration"
+msgstr "Info kalau ada User baru daftar"
+
+msgid "Notify on Password Change"
+msgstr "Info kalau ada ganti Password"
+
+msgid "OTP Code (6 digits)"
+msgstr "Kode OTP (6 angka)"
+
+msgid "OTP Delivery Method"
+msgstr "Cara Kirim OTP"
+
+msgid "OTP Expired"
+msgstr "OTP Kedaluwarsa"
+
+msgid "One entry per line. Format: phone; [1] field; [2] field; ..."
+msgstr "Satu baris satu nomor. Format: nomor; [1] field; [2] field; ..."
+
+msgid "Optional. Publicly accessible image, video, or document URL."
+msgstr "Opsional. URL foto, video, atau dokumen yang bisa diakses publik."
+
+msgid "Owner Email"
+msgstr "Email Pemilik"
+
+msgid "Owner Info"
+msgstr "Info Pemilik"
+
+msgid "Owner WhatsApp"
+msgstr "WhatsApp Pemilik"
+
+msgid "Owner info updated successfully."
+msgstr "Info pemilik berhasil diupdate nih."
+
+msgid "PRO Balance:"
+msgstr "Saldo PRO:"
+
+msgid "Page Access Control"
+msgstr "Kontrol Akses Halaman"
+
+msgid "Permission denied."
+msgstr "Akses ditolak."
+
+msgid "Phone"
+msgstr "Nomor HP"
+
+msgid "Phone list and message are required."
+msgstr "Daftar nomor dan isi pesan wajib diisi ya."
+
+msgid "Phone number is required."
+msgstr "Nomor HP wajib diisi ya."
+
+msgid "Please enter at least one phone number."
+msgstr "Masukkan minimal satu nomor HP ya."
+
+msgid "Queued"
+msgstr "Masuk Antrean"
+
+msgid "Quota Dashboard"
+msgstr "Dashboard Quota"
+
+msgid "Quota exhausted. Please top up or activate a voucher."
+msgstr "Quota habis nih. Yuk top up atau aktifkan voucher dulu."
+
+msgid "Quota is available and ready for use."
+msgstr "Quota tersedia dan siap dipakai!"
+
+msgid "Recipient"
+msgstr "Penerima"
+
+msgid "Recipient Number"
+msgstr "Nomor Penerima"
+
+msgid "Recipients"
+msgstr "Penerima"
+
+msgid "Recipients (one per line)"
+msgstr "Penerima (satu baris satu nomor)"
+
+msgid "Reconnect / View QR"
+msgstr "Sambungkan Lagi / Lihat QR"
+
+msgid "Redeem"
+msgstr "Redeem"
+
+msgid "Redeem PRO Voucher"
+msgstr "Redeem Voucher PRO"
+
+msgid "Refresh QR Code"
+msgstr "Refresh QR Code"
+
+msgid "Request failed. Please try again."
+msgstr "Permintaan gagal. Coba lagi ya."
+
+msgid "Resend"
+msgstr "Kirim Ulang"
+
+msgid "Retry Interval"
+msgstr "Jeda Kirim Ulang"
+
+msgid "Role"
+msgstr "Role"
+
+msgid "Save Owner Info"
+msgstr "Simpan Info Pemilik"
+
+msgid "Save Settings"
+msgstr "Simpan Pengaturan"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "Select All"
+msgstr "Pilih Semua"
+
+msgid "Select message"
+msgstr "Pilih pesan"
+
+msgid "Select which user roles to monitor for login and password change events."
+msgstr "Pilih role mana saja yang mau dipantau untuk kejadian login dan ganti password."
+
+msgid "Send Broadcast"
+msgstr "Kirim Broadcast"
+
+msgid "Send Results"
+msgstr "Hasil Pengiriman"
+
+msgid "Send a WhatsApp message to multiple recipients. Each number is queued individually on the Wagy server."
+msgstr "Kirim pesan WhatsApp ke banyak penerima sekaligus. Setiap nomor bakal masuk antrean di server Wagy."
+
+msgid "Send a message when a monitored user changes their password."
+msgstr "Kirim pesan saat ada user yang dipantau ganti password."
+
+msgid "Send a message when a monitored user logs in."
+msgstr "Kirim pesan saat ada user yang dipantau login."
+
+msgid "Send a message when a new user registers."
+msgstr "Kirim pesan saat ada user baru yang daftar."
+
+msgid "Send a message when an update successfully completes (manual or auto-update)."
+msgstr "Kirim pesan saat ada update yang berhasil (manual atau otomatis)."
+
+msgid "Send an alert when the failed login threshold is exceeded."
+msgstr "Kirim peringatan kalau batas gagal login terlampaui."
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Source handler not found or invalid."
+msgstr "Handler sumber tidak ketemu atau tidak valid."
+
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status & Quota"
+msgstr "Status & Quota"
+
+msgid "System Update Notifications"
+msgstr "Notifikasi Update Sistem"
+
+msgid "The API bearer token for authenticating with the WAGY server. Stored encrypted."
+msgstr "Token API untuk autentikasi ke server WAGY. Disimpan terenkripsi ya."
+
+msgid "The full URL of your WAGY API server (e.g. https://wagy.example.com)."
+msgstr "URL lengkap server API WAGY kamu (misal: https://wagy.example.com)."
+
+msgid "This information is used by the Wagy server to send inactivity and logout notifications to the device owner."
+msgstr "Info ini dipakai server Wagy untuk kirim notifikasi kalau device tidak aktif atau terputus."
+
+msgid "This page is locked by Strict Mode. You do not have permission to change these settings."
+msgstr "Halaman ini dikunci sama Strict Mode. Kamu tidak punya izin untuk ganti pengaturan ini."
+
+msgid "To:"
+msgstr "Ke:"
+
+msgid "Too Many Attempts"
+msgstr "Kebanyakan Percobaan"
+
+msgid "Twice Daily"
+msgstr "Dua Kali Sehari"
+
+msgid "Two-Factor Authentication"
+msgstr "Two-Factor Authentication"
+
+msgid "Two-Factor Authentication (2FA)"
+msgstr "Two-Factor Authentication (2FA)"
+
+msgid "Type your message here..."
+msgstr "Ketik pesan kamu di sini ya..."
+
+msgid "Unknown error"
+msgstr "Error tidak dikenal"
+
+msgid "Use %1$s, %2$s, etc. to insert dynamic data from the recipient list (field 1, field 2, ...)."
+msgstr "Pakai %1$s, %2$s, dsb untuk masukin data dinamis dari daftar penerima (field 1, field 2, ...)."
+
+msgid "Use %s to insert the 6-digit OTP code."
+msgstr "Pakai %s untuk masukin 6 angka kode OTP."
+
+msgid "Used for WhatsApp notifications. Country code without +."
+msgstr "Dipakai untuk notifikasi WhatsApp. Pakai kode negara tanpa + ya."
+
+msgid "Used for email notifications about inactivity or logout events."
+msgstr "Dipakai untuk notifikasi email saat ada kejadian device tidak aktif atau terputus."
+
+msgid "Verify"
+msgstr "Verifikasi"
+
+msgid "WAGY Security Alert - %s"
+msgstr "Peringatan Keamanan WAGY - %s"
+
+msgid "WAGY Two-Factor Authentication"
+msgstr "WAGY Two-Factor Authentication"
+
+msgid "Wagy"
+msgstr "Wagy"
+
+msgid "Wagy API is not configured."
+msgstr "API Wagy belum dikonfigurasi."
+
+msgid "Wagy Broadcast"
+msgstr "Wagy Broadcast"
+
+msgid "Wagy Settings"
+msgstr "Wagy Settings"
+
+msgid "Wagy Status"
+msgstr "Wagy Status"
+
+msgid "Wagy Status & Quota"
+msgstr "Wagy Status & Quota"
+
+msgid "Wagy WhatsApp Device Disconnected."
+msgstr "WhatsApp Wagy Terputus."
+
+msgid "Wagy has not been configured yet. Please go to Settings to set up your API credentials."
+msgstr "Wagy belum dikonfigurasi nih. Yuk, ke menu Settings dulu untuk atur koneksinya."
+
+msgid "Warning: Your own Username will be automatically added to prevent self-lockout."
+msgstr "Peringatan: Username kamu bakal otomatis ditambahin biar kamu tidak kekunci sendiri."
+
+msgid "Weekly"
+msgstr "Mingguan"
+
+msgid "WhatsApp (fallback to email)"
+msgstr "WhatsApp (cadangan ke email)"
+
+msgid "WhatsApp Number"
+msgstr "Nomor WhatsApp"
+
+msgid "WhatsApp Security Notifications"
+msgstr "Notifikasi Keamanan WhatsApp"
+
+msgid "WhatsApp is connected (%s)."
+msgstr "WhatsApp sudah tersambung (%s)."
+
+msgid "WhatsApp is disconnected. Please scan the QR code below to connect."
+msgstr "WhatsApp terputus. Scan QR code di bawah ini yuk supaya nyambung lagi."
+
+msgid "WooCommerce Customers (Billing Phone)"
+msgstr "Pelanggan WooCommerce (Nomor Billing)"
+
+msgid "WordPress Users: %s"
+msgstr "User WordPress: %s"
+
+msgid "You have entered an incorrect code 3 times. Please log in again to request a new OTP."
+msgstr "Kamu sudah salah masukin kode 3 kali nih. Silakan login lagi untuk minta OTP baru ya."
+
+msgid "Your Login OTP Code"
+msgstr "Kode OTP Login Kamu"
+
+msgid "Your OTP code has expired. Please log in again to request a new one."
+msgstr "Kode OTP kamu sudah kedaluwarsa. Silakan login lagi untuk minta yang baru ya."
+
+msgid "Your WhatsApp session has ended."
+msgstr "Sesi WhatsApp kamu sudah berakhir."
+
+msgid "Your registered WhatsApp device ID on the WAGY server."
+msgstr "Device ID WhatsApp kamu yang terdaftar di server WAGY."
+
+msgid "admin@example.com"
+msgstr "admin@contoh.com"
+
+msgid "attempts"
+msgstr "kali percobaan"
+
+msgid "e.g. 628123456789"
+msgstr "misal: 628123456789"
+
+msgid "failed"
+msgstr "gagal"
+
+msgid "https://example.com/image.jpg (optional)"
+msgstr "https://contoh.com/foto.jpg (opsional)"
+
+msgid "number(s) imported from:"
+msgstr "nomor diimport dari:"
+
+msgid "of"
+msgstr "dari"
+
+msgid "owner@example.com"
+msgstr "pemilik@contoh.com"
+
+msgid "queued"
+msgstr "antre"
+
+msgid "recipient(s)"
+msgstr "penerima"
+
+msgid "seconds"
+msgstr "detik"

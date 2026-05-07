@@ -23,3 +23,8 @@ require_once __DIR__ . '/includes/Autoloader.php';
 
 /** Load functions */
 require_once __DIR__ . '/functions.php';
+
+/** Load text domain for translations */
+add_action( 'init', function() {
+    load_plugin_textdomain( 'wagy-connect', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+} );

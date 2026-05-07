@@ -112,24 +112,66 @@ class WooCommerce {
             $items[] = $item->get_name() . ' (x' . $item->get_quantity() . ')';
         }
 
+        $payment_info = $this->get_payment_details( $order );
+
         $placeholders = [
-            '{first_name}'     => $order->get_billing_first_name(),
-            '{last_name}'      => $order->get_billing_last_name(),
-            '{full_name}'      => $order->get_billing_first_name() . ' ' . $order->get_billing_last_name(),
-            '{order_id}'       => $order->get_id(),
-            '{order_number}'   => $order->get_order_number(),
-            '{order_total}'    => wc_price( $order->get_total(), [ 'currency' => $order->get_currency() ] ),
-            '{order_status}'   => wc_get_order_status_name( $order->get_status() ),
-            '{payment_method}' => $order->get_payment_method_title(),
-            '{items_list}'     => implode( ", ", $items ),
-            '{site_title}'     => get_bloginfo( 'name' ),
-            '{site_url}'       => site_url(),
+            '{first_name}'           => $order->get_billing_first_name(),
+            '{last_name}'            => $order->get_billing_last_name(),
+            '{full_name}'            => $order->get_billing_first_name() . ' ' . $order->get_billing_last_name(),
+            '{order_id}'             => $order->get_id(),
+            '{order_number}'         => $order->get_order_number(),
+            '{order_total}'          => wc_price( $order->get_total(), [ 'currency' => $order->get_currency() ] ),
+            '{order_status}'         => wc_get_order_status_name( $order->get_status() ),
+            '{payment_method}'       => $order->get_payment_method_title(),
+            '{payment_instructions}' => $payment_info['instructions'],
+            '{bank_details}'         => $payment_info['bank_details'],
+            '{items_list}'           => implode( ", ", $items ),
+            '{site_title}'           => get_bloginfo( 'name' ),
+            '{site_url}'             => site_url(),
         ];
 
-        // Strip HTML from price if needed (WhatsApp is text only)
-        $placeholders['{order_total}'] = html_entity_decode( strip_tags( $placeholders['{order_total}'] ) );
+        // Strip HTML from price and details (WhatsApp is text only)
+        $placeholders['{order_total}']          = html_entity_decode( strip_tags( $placeholders['{order_total}'] ) );
+        $placeholders['{payment_instructions}'] = html_entity_decode( strip_tags( $placeholders['{payment_instructions}'] ) );
+        $placeholders['{bank_details}']         = html_entity_decode( strip_tags( $placeholders['{bank_details}'] ) );
 
         return str_replace( array_keys( $placeholders ), array_values( $placeholders ), $template );
+    }
+
+    /**
+     * Retrieves payment-specific details like bank accounts or instructions.
+     */
+    protected function get_payment_details( $order ) {
+        $method  = $order->get_payment_method();
+        $details = [ 'bank_details' => '', 'instructions' => '' ];
+
+        // 1. Get Bank Accounts for BACS
+        if ( 'bacs' === $method ) {
+            $accounts = get_option( 'woocommerce_bacs_accounts', [] );
+            if ( ! empty( $accounts ) ) {
+                $bank_list = [];
+                foreach ( $accounts as $account ) {
+                    $bank_list[] = sprintf(
+                        "*%s*\nNo. Rek: %s\na.n. %s",
+                        $account['bank_name'],
+                        $account['account_number'],
+                        $account['account_name']
+                    );
+                }
+                $details['bank_details'] = implode( "\n\n", $bank_list );
+            }
+        }
+
+        // 2. Get Instructions for the current gateway
+        $gateways = WC()->payment_gateways->get_available_payment_gateways();
+        if ( isset( $gateways[ $method ] ) ) {
+            $instr = $gateways[ $method ]->get_option( 'instructions' );
+            if ( ! empty( $instr ) ) {
+                $details['instructions'] = $instr;
+            }
+        }
+
+        return $details;
     }
 
     /**
@@ -205,7 +247,12 @@ class WooCommerce {
                                     <p style="margin-top: 0; font-weight: 600;"><?php esc_html_e( 'Available Placeholders (Click to insert):', 'wagy-connect' ); ?></p>
                                     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
                                         <?php 
-                                        $p_list = [ '{first_name}', '{last_name}', '{full_name}', '{order_id}', '{order_number}', '{order_total}', '{order_status}', '{payment_method}', '{items_list}', '{site_title}' ];
+                                        $p_list = [ 
+                                            '{first_name}', '{last_name}', '{full_name}', 
+                                            '{order_id}', '{order_number}', '{order_total}', 
+                                            '{order_status}', '{payment_method}', '{payment_instructions}', 
+                                            '{bank_details}', '{items_list}', '{site_title}' 
+                                        ];
                                         foreach ( $p_list as $p ) : ?>
                                             <code class="wagy-p-chip" style="cursor: pointer; padding: 4px 8px; background: #fff; border: 1px solid #ccd0d4; border-radius: 3px;" data-p="<?php echo esc_attr( $p ); ?>"><?php echo esc_html( $p ); ?></code>
                                         <?php endforeach; ?>

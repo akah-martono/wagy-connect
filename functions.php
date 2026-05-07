@@ -4,7 +4,9 @@ use Wagy\Admin\SettingsPage;
 use Wagy\Admin\StatusPage;
 use Wagy\Admin\MessagesLogPage;
 use Wagy\Admin\BroadcastPage;
+use Wagy\Admin\IntegrationsPage;
 use Wagy\Integrations\FluentForms;
+use Wagy\Integrations\WooCommerce;
 use Wagy\Security\CustomLoginUrl;
 use Wagy\Security\TwoFactorAuth;
 use Wagy\Security\SecurityNotifications;
@@ -26,6 +28,7 @@ if(Wagy::is_configured()) {
     new MessagesLogPage();
     new BroadcastPage();
 }
+new IntegrationsPage();
 new SettingsPage();
 
 /** Security Features */
@@ -43,6 +46,9 @@ foreach ( [ 'wagy_base_url', 'wagy_device_id', 'wagy_token' ] as $wagy_connect_o
     } );
 }
 unset( $wagy_connect_option );
+
+/** WooCommerce Integration */
+new WooCommerce();
 
 /** FluentForms Integration */
 add_action('fluentform/loaded', function (\FluentForm\Framework\Foundation\Application $app) {

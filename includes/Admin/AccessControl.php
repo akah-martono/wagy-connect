@@ -21,6 +21,7 @@ final class AccessControl {
     public static function get_pages() {
         return [
             'wagy-status'    => __( 'Status & Quota', 'wagy-connect' ),
+            'wagy-integrations' => __( 'Integrations Hub', 'wagy-connect' ),
             'wagy-messages'  => __( 'Messages Log', 'wagy-connect' ),
             'wagy-broadcast' => __( 'Broadcast', 'wagy-connect' ),
         ];

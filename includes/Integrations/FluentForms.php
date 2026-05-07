@@ -167,7 +167,6 @@ class FluentForms extends IntegrationManagerController
             $numbers = array_map('trim', explode(',', $recipient));
 
             foreach ($numbers as $number) {
-                $number = preg_replace('/^0/', '62', $number);
                 if (!$number) continue;
                 Wagy::send_message([
                     'phone'      => $number,

@@ -95,7 +95,6 @@ class WooCommerce {
 
         $phone   = $order->get_billing_phone();
         $message = $this->parse_template( $templates[ $status ]['message'], $order );
-
         if ( ! empty( $phone ) && ! empty( $message ) ) {
             Wagy::send_message( [
                 'phone'   => $phone,

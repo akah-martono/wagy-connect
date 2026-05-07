@@ -48,7 +48,9 @@ foreach ( [ 'wagy_base_url', 'wagy_device_id', 'wagy_token' ] as $wagy_connect_o
 unset( $wagy_connect_option );
 
 /** WooCommerce Integration */
-new WooCommerce();
+add_action( 'plugins_loaded', function() {
+    new WooCommerce();
+} );
 
 /** FluentForms Integration */
 add_action('fluentform/loaded', function (\FluentForm\Framework\Foundation\Application $app) {

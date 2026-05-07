@@ -103,6 +103,37 @@ class Wagy {
     }
 
     /**
+     * Formats a phone number to international format (starting with 62).
+     *
+     * - Removes non-numeric characters.
+     * - Replaces leading '0' with '62'.
+     * - Adds '62' prefix if missing (for Indonesian numbers starting with '8').
+     *
+     * @param string $phone The raw phone number.
+     * @return string The formatted phone number.
+     */
+    public static function format_phone( $phone ) {
+        // Remove all non-numeric characters
+        $phone = preg_replace( '/[^0-9]/', '', $phone );
+
+        if ( empty( $phone ) ) {
+            return $phone;
+        }
+
+        // If it starts with '0', change it to '62'
+        if ( strpos( $phone, '0' ) === 0 ) {
+            $phone = '62' . substr( $phone, 1 );
+        }
+
+        // If it starts with '8' (Indonesian mobile), add '62' prefix
+        if ( strpos( $phone, '8' ) === 0 && strlen( $phone ) >= 9 ) {
+            $phone = '62' . $phone;
+        }
+
+        return $phone;
+    }
+
+    /**
      * Decrypts a value previously encrypted by self::encrypt().
      *
      * If the string does not start with 'ENC_', it is returned as-is
@@ -230,6 +261,11 @@ class Wagy {
      * @return array Normalized API response. On success, 'data' contains the created message object.
      */
     public static function send_message( array $args ): array {
+        // Format phone number automatically to international format
+        if ( ! empty( $args['phone'] ) ) {
+            $args['phone'] = self::format_phone( $args['phone'] );
+        }
+
         $settings  = self::get_settings();
         $base_url  = $settings['base_url'];
         $device_id = $settings['device_id'];

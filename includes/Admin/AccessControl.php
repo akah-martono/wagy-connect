@@ -20,10 +20,22 @@ final class AccessControl {
      */
     public static function get_pages() {
         return [
-            'wagy-status'    => __( 'Status & Quota', 'wagy-connect' ),
+            'wagy-status'       => __( 'Status & Quota', 'wagy-connect' ),
             'wagy-integrations' => __( 'Integrations Hub', 'wagy-connect' ),
-            'wagy-messages'  => __( 'Messages Log', 'wagy-connect' ),
-            'wagy-broadcast' => __( 'Broadcast', 'wagy-connect' ),
+            'wagy-messages'     => __( 'Messages Log', 'wagy-connect' ),
+            'wagy-broadcast'    => __( 'Broadcast', 'wagy-connect' ),
+        ];
+    }
+
+    /**
+     * Get only the page slugs for early capability checks.
+     */
+    public static function get_page_slugs() {
+        return [
+            'wagy-status',
+            'wagy-integrations',
+            'wagy-messages',
+            'wagy-broadcast',
         ];
     }
 
@@ -40,7 +52,7 @@ final class AccessControl {
      * We map our page slugs to capabilities like 'wagy_access_status'.
      */
     public static function filter_user_caps( $allcaps, $caps, $args, $user ) {
-        $pages = array_keys( self::get_pages() );
+        $pages = self::get_page_slugs();
         $settings = get_option( self::OPTION_NAME, [] );
 
         foreach ( $pages as $page ) {

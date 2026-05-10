@@ -1,0 +1,30 @@
+name: Build & Release
+
+on:
+  release:
+    types: [created]   # trigger otomatis saat kamu buat release baru
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Build
+        run: go build -o wagy-connect ./...
+
+      - name: Buat ZIP dengan folder bersih
+        run: |
+          mkdir -p dist/wagy-connect
+          cp wagy-connect dist/wagy-connect/
+          cd dist && zip -r ../wagy-connect.zip wagy-connect/
+
+      - name: Upload ke Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: wagy-connect.zip

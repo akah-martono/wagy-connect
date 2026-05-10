@@ -4,7 +4,7 @@ Tags: security, 2fa, two factor authentication, notifications, whatsapp
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 8.0
-Stable tag: 0.0.2
+Stable tag: 0.0.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,10 @@ A WordPress security and messaging suite: WhatsApp 2FA, security alerts, custom 
 = Fluent Forms Integration =
 
 * Send WhatsApp messages triggered by Fluent Forms submissions using configurable field mappings.
+
+= WooCommerce Integration =
+
+* Send WhatsApp messages triggered by WooCommerce order status changes using configurable field mappings.
 
 = Requirements =
 
@@ -101,8 +105,12 @@ The Owner Info stores your email and WhatsApp number on the WAGY server. The WAG
 2. Settings page — API credentials, Security tab, and Owner Info tab.
 3. Messages Log — filterable, paginated log of all sent WhatsApp messages.
 4. Broadcast page — compose and send bulk WhatsApp messages with WordPress user import.
+5. WooCommerce integration — Order and subscription notifications.
 
 == Changelog ==
+
+= 0.0.5 =
+* WooCommerce integration
 
 = 0.0.2 =
 * Add Indonesian language.
@@ -112,5 +120,5 @@ The Owner Info stores your email and WhatsApp number on the WAGY server. The WAG
 
 == Upgrade Notice ==
 
-= 0.0.2 =
-Initial release. No upgrade steps required.
+= 0.0.5 =
+WooCommerce integration. No upgrade steps required.

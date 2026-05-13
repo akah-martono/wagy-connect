@@ -349,7 +349,7 @@ class Wagy {
      *
      *     @type int    $page       Page number. Defaults to 1.
      *     @type int    $limit      Results per page. Defaults to 20.
-     *     @type string $status     Filter by message status (PENDING, SENT, FAILED, EXPIRED).
+     *     @type string $status     Filter by message status (PENDING, SENT, DELIVERED, READ, FAILED, EXPIRED, CANCELLED).
      *     @type string $recipient  Filter by recipient phone number.
      *     @type string $start_date Filter by start date (Y-m-d). Converted to UTC automatically.
      *     @type string $end_date   Filter by end date (Y-m-d). Converted to UTC automatically.

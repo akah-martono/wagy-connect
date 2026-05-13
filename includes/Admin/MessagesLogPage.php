@@ -165,6 +165,8 @@ final class MessagesLogPage {
             }
             .wagy-status-PENDING   { background: #f0f0f1; color: #3c434a; }
             .wagy-status-SENT      { background: #edfaef; color: #008a20; }
+            .wagy-status-DELIVERED { background: #dcf8c6; color: #075e54; }
+            .wagy-status-READ      { background: #e1f5fe; color: #0288d1; }
             .wagy-status-FAILED    { background: #fcf0f1; color: #d63638; }
             .wagy-status-EXPIRED   { background: #fff8e5; color: #dba617; }
             .wagy-status-CANCELLED { background: #e0e0e0; color: #646970; }
@@ -228,6 +230,8 @@ final class MessagesLogPage {
                         <option value=""><?php esc_html_e( 'All Statuses', 'wagy-connect' ); ?></option>
                         <option value="PENDING"   <?php selected( $status, 'PENDING' ); ?>>PENDING</option>
                         <option value="SENT"      <?php selected( $status, 'SENT' ); ?>>SENT</option>
+                        <option value="DELIVERED" <?php selected( $status, 'DELIVERED' ); ?>>DELIVERED</option>
+                        <option value="READ"      <?php selected( $status, 'READ' ); ?>>READ</option>
                         <option value="FAILED"    <?php selected( $status, 'FAILED' ); ?>>FAILED</option>
                         <option value="EXPIRED"   <?php selected( $status, 'EXPIRED' ); ?>>EXPIRED</option>
                         <option value="CANCELLED" <?php selected( $status, 'CANCELLED' ); ?>>CANCELLED</option>
